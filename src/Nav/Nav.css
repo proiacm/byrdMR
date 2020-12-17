@@ -1,16 +1,21 @@
 .Nav {
   background-color: #F4F1ED;
   padding: 4%;
+  font-family: Archivo-Medium;
+  color: #31211C;
+  text-transform: uppercase;
 }
 
 .nav-li-left {
   float: left;
-  margin-right: 5%;
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .nav-li-right {
   float: right;
-  margin-left: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .nav-img {
