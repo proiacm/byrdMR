@@ -5,3 +5,10 @@
 .hero-img {
   width: 30%;
 }
+
+.img-shadow {
+  width: 24%;
+  display: table-column;
+  margin-left: 38%;
+  margin-top: -1%;
+}
