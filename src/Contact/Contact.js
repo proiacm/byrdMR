@@ -6,15 +6,21 @@ const Contact = () => {
   return (
     <div className='Contact'>
       <div className='form'>
-        <label for='name'>NAME</label><br/>
-          <input className='input'type="text" id="name" name="name" 
-          placeholder="Enter your full name"/><br/><br/>
-        <label for='email'>EMAIL</label><br/>
-          <input className='input' type="text" id="email" name="email" 
-            placeholder="Enter your email"/><br/><br/>
-        <label for='subject'>MESSAGE</label><br/>
-          <input className='input' type="text" id="subject" name="subject" placeholder="What are your plans?"/><br/>
-          <input className='submit' type="submit" value="Send Message &#8594;"/>
+        <form>
+          <label className='form-label'>
+            FULL NAME <br/>
+            <input className='input' type="text" name="name" value="Enter your full name" />
+          </label><br/><br/>
+          <label className='form-label'>
+            EMAIL <br/>
+            <input className='input' type="text" name="email" value="Enter your email"  />
+          </label><br/><br/>
+          <label className='form-label'>
+            MESSAGE <br/>
+            <input className='input' type="text" name="message" value="What are your plans?"  />
+          </label> <br/><br/>
+          <input className='submit' type="submit" value="Send Message &#8594;" />
+        </form>
       </div>
     </div>
   )
