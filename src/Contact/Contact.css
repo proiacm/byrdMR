@@ -12,3 +12,19 @@
   text-align: left;
 }
 
+.form-label {
+  color: #31211C;
+  font-size: 1vw;
+}
+
+.input {
+  width: 300%;
+  padding-bottom: 12%;
+  padding-top: 3%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #D5D2CE;
+  color: #D5D2CE;
+  font-size: 1.4vw;
+}
+
