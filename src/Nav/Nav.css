@@ -2,3 +2,13 @@
   background-color: #F4F1ED;
   padding: 4%;
 }
+
+.nav-li-left {
+  float: left;
+  margin-right: 5%;
+}
+
+.nav-li-right {
+  float: right;
+  margin-left: 5%;
+}
