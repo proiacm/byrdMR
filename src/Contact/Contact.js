@@ -17,7 +17,7 @@ const Contact = (props) => {
           </label><br/><br/>
           <label className='form-label'>
             MESSAGE <br/>
-            <input className='input' type="text" name="message" value={props.message} onClick={props.messageClicked} onChange={props.messageChanged} />
+            <input className='input-text' type="text" name="message" value={props.message} onClick={props.messageClicked} onChange={props.messageChanged} />
           </label> <br/><br/>
           <input className='submit' type="submit" value="Send Message &#8594;" />
         </form>

@@ -28,6 +28,17 @@
   font-size: 1.4vw;
 }
 
+.input-text {
+  width: 300%;
+  padding-bottom: 50%;
+  padding-top: 3%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #D5D2CE;
+  color: #D5D2CE;
+  font-size: 1.4vw;
+}
+
 .submit {
   background-color: #EE5F1F;
   color: #FFFFFF;
@@ -41,6 +52,6 @@
   cursor: pointer;
 }
 
-.input:hover {
+.input:hover, .input-text:hover {
   color: #31211C;
 }
