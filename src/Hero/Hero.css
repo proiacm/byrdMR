@@ -1,5 +1,6 @@
 .Hero {
   background-color: #F4F1ED;
+  padding-bottom: 4%;
 }
 
 .hero-img {
@@ -11,4 +12,24 @@
   display: table-column;
   margin-left: 38%;
   margin-top: -1%;
+}
+
+.hero-title {
+  color: #FFFFFF;
+  font-size: 16vw;
+  margin-top: -3%;
+  font-family: Archivo-Bold;
+}
+
+.hero-text {
+  margin-top: -13%;
+  color: #D5D2CE;
+  font-family: Archivo-Medium;
+}
+
+.hero-text2 {
+  margin-top: -1%;
+  font-size: 1vw;
+  color: #D5D2CE;
+  font-family: Archivo-Medium;
 }
