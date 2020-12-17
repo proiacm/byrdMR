@@ -9,7 +9,7 @@ const Contact = (props) => {
         <form>
           <label className='form-label'>
             FULL NAME <br/>
-            <input className='input' type="text" name="name" value={props.value}/>
+            <input className='input' type="text" name="name" value={props.value} onChange={props.changed}/>
           </label><br/><br/>
           <label className='form-label'>
             EMAIL <br/>

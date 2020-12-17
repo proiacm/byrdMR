@@ -12,14 +12,20 @@ class App extends Component {
     ]
   }
 
-
+  formChangeHandler = (event) => {
+    this.setState({
+      form: [
+        {value: event.target.value}
+      ]
+    })
+  }
 
 
   render() {
 
     let contact = <div>
       {this.state.form.map((form, index) => {
-        return <Contact key={index} value={form.value}/>
+        return <Contact key={index} value={form.value} changed={this.formChangeHandler}/>
       })}
     </div>
 
