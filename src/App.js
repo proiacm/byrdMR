@@ -7,68 +7,58 @@ import Nav from './Nav/Nav';
 class App extends Component {
 
   state = {
-    form: [
-      {name: 'Enter your full name', email: 'Enter your email', message:'What are your plans?'}
-    ]
+    name: 'Enter your full name',
+    email: 'Enter your email',
+    message:'What are your plans?'
   }
+    
 
   nameClickHandler = () => {
     this.setState({
-      form: [
-        {name: ''}
-      ]
+      name: ''
     })
   }
 
   emailClickHandler = () => {
     this.setState({
-      form: [
-        {email: ''}
-      ]
+        email: ''
     })
   }
 
   messageClickHandler = () => {
     this.setState({
-      form: [
-        {message: ''}
-      ]
+      message: ''
     })
   }
 
   nameChangeHandler = (event) => {
     this.setState({
-      form: [
-        {name: event.target.value}
-      ]
+      name: event.target.value
     })
   }
 
   emailChangeHandler = (event) => {
     this.setState({
-      form: [
-        {email: event.target.value}
-      ]
+      email: event.target.value
     })
   }
 
   messageChangeHandler = (event) => {
     this.setState({
-      form: [
-        {message: event.target.value}
-      ]
+      message: event.target.value
     })
   }
 
   render() {
 
-    let contact = <div>
-      {this.state.form.map((form, index) => {
-        return <Contact 
-        key={index}
-        name={form.name}
-        email={form.email}
-        message={form.message}
+    return (
+      <div className="App">
+        <Nav />
+        <Hero />
+        <Contact 
+        name={this.state.name}
+        email={this.state.email}
+        message={this.state.message}
         nameClicked={this.nameClickHandler}
         emailClicked={this.emailClickHandler}
         messageClicked={this.messageClickHandler}
@@ -76,14 +66,6 @@ class App extends Component {
         emailChanged={this.emailChangeHandler}
         messageChanged={this.messageChangeHandler}
         />
-      })}
-    </div>
-
-    return (
-      <div className="App">
-        <Nav />
-        <Hero />
-        {contact}
       </div>
     )};
   }
