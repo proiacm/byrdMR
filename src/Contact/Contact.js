@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = () => {
+const Contact = (props) => {
 
   return (
     <div className='Contact'>
@@ -9,7 +9,7 @@ const Contact = () => {
         <form>
           <label className='form-label'>
             FULL NAME <br/>
-            <input className='input' type="text" name="name" value="Enter your full name" />
+            <input className='input' type="text" name="name" value={props.value}/>
           </label><br/><br/>
           <label className='form-label'>
             EMAIL <br/>
