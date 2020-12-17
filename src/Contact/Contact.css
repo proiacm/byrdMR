@@ -28,3 +28,14 @@
   font-size: 1.4vw;
 }
 
+.submit {
+  background-color: #EE5F1F;
+  color: #FFFFFF;
+  border: 1px solid #EE5F1F;
+  border-radius: 2px;
+  padding: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
