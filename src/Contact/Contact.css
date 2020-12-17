@@ -1,5 +1,14 @@
 .Contact {
+  font-family: Archivo-Medium;
   background-color: #F4F1ED;
-  padding: 5%;
+  padding: 10%;
+  padding-top: 15%;
+}
+
+.form {
+  display: flex;
+  margin-left: 25%;
+  justify-content: start;
+  text-align: left;
 }
 
