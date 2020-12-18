@@ -15,15 +15,15 @@ const Contact = (props) => {
         <form>
           <label className='form-label'>
             FULL NAME <br/>
-            <input className='input' type="text" name="name" value={props.name} onClick={props.nameClicked} onChange={props.nameChanged}/>
+            <input className='input' type="text" name="name" placeholder={props.name} onChange={props.nameChanged}/>
           </label><br/><br/>
           <label className='form-label'>
             EMAIL <br/>
-            <input className='input' type="text" name="email" value={props.email} onClick={props.emailClicked} onChange={props.emailChanged} />
+            <input className='input' type="text" name="email" placeholder={props.email} onChange={props.emailChanged} />
           </label><br/><br/>
           <label className='form-label'>
             MESSAGE <br/>
-            <input className='input-text' type="text" name="message" value={props.message} onClick={props.messageClicked} onChange={props.messageChanged} />
+            <input className='input-text' type="text" name="message" placeholder={props.message} onChange={props.messageChanged} />
           </label> <br/><br/>
           <input className='submit' type="submit" value="Send Message &#8594;" />
         </form>
