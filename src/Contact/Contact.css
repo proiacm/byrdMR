@@ -20,7 +20,7 @@
 .form {
   display: flex;
   margin-left: 25%;
-  justify-content: start;
+  justify-content: flex-start;
   text-align: left;
 }
 
