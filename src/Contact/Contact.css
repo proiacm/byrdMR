@@ -5,7 +5,7 @@
 }
 
 .logo {
-  width: 15%;
+  width: 12%;
   margin-bottom: 15%;
   margin-right: 12%;
 }
@@ -37,7 +37,7 @@
   border: none;
   border-bottom: 1px solid #D5D2CE;
   color: #D5D2CE;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
 }
 
 .input-text {
@@ -48,7 +48,7 @@
   border: none;
   border-bottom: 1px solid #D5D2CE;
   color: #D5D2CE;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
 }
 
 .submit {
