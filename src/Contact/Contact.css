@@ -53,7 +53,7 @@
   color: #D5D2CE;
 }
 
-.input:focus, .input-text:focus {
+.input:focus, .input-text:focus, .submit:focus {
     outline: none;
 }
 
