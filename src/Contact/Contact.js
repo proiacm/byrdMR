@@ -8,9 +8,9 @@ const Contact = (props) => {
 
   return (
     <div className='Contact' id='contact'>
-      <img className='social' src={fb} />
-      <img className='social' src={twitter} />
-      <img className='logo' src={logo} />
+      <img className='social' src={fb} alt='facebook' />
+      <img className='social' src={twitter} alt='twitter' />
+      <img className='logo' src={logo} alt='logo' />
       <div className='form'>
         <form>
           <label className='form-label'>
