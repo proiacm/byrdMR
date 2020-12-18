@@ -1,10 +1,16 @@
 import React from 'react';
 import './Contact.css';
+import logo from '../Images/Logo.png';
+import fb from '../Images/fb.png';
+import twitter from '../Images/twitter.png'
 
 const Contact = (props) => {
 
   return (
-    <div className='Contact'>
+    <div className='Contact' id='contact'>
+      <img className='social' src={fb} />
+      <img className='social' src={twitter} />
+      <img className='logo' src={logo} />
       <div className='form'>
         <form>
           <label className='form-label'>
