@@ -12,7 +12,7 @@ const Contact = (props) => {
       <img className='social' src={twitter} alt='twitter' />
       <img className='logo' src={logo} alt='logo' />
       <div className='form'>
-        <form>
+        <form onSubmit={props.submit}>
           <label className='form-label'>
             FULL NAME <br/>
             <input className='input' type="text" name="name" placeholder='Enter your full name' onChange={props.nameChanged}/>
@@ -25,7 +25,7 @@ const Contact = (props) => {
             MESSAGE <br/>
             <input className='input-text' type="text" name="message" placeholder='What are your plans?' onChange={props.messageChanged} />
           </label> <br/><br/>
-          <input className='submit' type="submit" value="Send Message &#8594;" onClick={props.submit}/>
+          <input className='submit' type="submit" value="Send Message &#8594;" />
         </form>
       </div>
     </div>

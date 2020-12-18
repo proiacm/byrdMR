@@ -34,6 +34,7 @@ class App extends Component {
 
   submitHandler = (event) => {
     event.preventDefault()
+    event.currentTarget.reset();
     toast.success("Thank you for contacting us!");
   }
 
