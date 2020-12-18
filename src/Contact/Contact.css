@@ -53,6 +53,10 @@
   color: #D5D2CE;
 }
 
+.input:focus, .input-text:focus {
+    outline: none;
+}
+
 .submit {
   background-color: #EE5F1F;
   color: #FFFFFF;
