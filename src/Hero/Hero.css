@@ -1,6 +1,10 @@
 .Hero {
   background-color: #F4F1ED;
+<<<<<<< Updated upstream
   padding-bottom: 4%;
+=======
+  padding-bottom: 15%;
+>>>>>>> Stashed changes
 }
 
 .hero-img {
@@ -32,4 +36,23 @@
   font-size: 1vw;
   color: #D5D2CE;
   font-family: Archivo-Medium;
+<<<<<<< Updated upstream
+=======
+}
+
+@media only screen and (max-device-width: 600px) {
+
+  .hero-img {
+    margin-top: 5%;
+    width: 70%;
+  }
+  
+  .img-shadow {
+    width: 55%;
+    display: table-column;
+    margin-left: 23%;
+    margin-top: -3%;
+  }
+  
+>>>>>>> Stashed changes
 }
