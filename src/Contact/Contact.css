@@ -70,10 +70,6 @@
   cursor: pointer;
 }
 
-.input:hover, .input-text:hover {
-  color: #31211C;
-}
-
 @media only screen and (max-device-width: 600px) {
 
   .Contact {
