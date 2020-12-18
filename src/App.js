@@ -3,13 +3,15 @@ import './App.css';
 import Contact from './Contact/Contact';
 import Hero from './Hero/Hero';
 import Nav from './Nav/Nav';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 class App extends Component {
 
   state = {
-    name: 'Enter your full name',
-    email: 'Enter your email',
-    message:'What are your plans?'
+    name: '',
+    email: '',
+    message:''
   }
     
   nameChangeHandler = (event) => {
@@ -30,7 +32,13 @@ class App extends Component {
     })
   }
 
+  submitHandler = (event) => {
+    event.preventDefault()
+    toast.success("Thank you for contacting us!");
+  }
+
   render() {
+
 
     return (
       <div className="App">
@@ -43,6 +51,18 @@ class App extends Component {
         nameChanged={this.nameChangeHandler}
         emailChanged={this.emailChangeHandler}
         messageChanged={this.messageChangeHandler}
+        submit={this.submitHandler}
+        />
+        <ToastContainer 
+        position="top-center"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
         />
       </div>
     )};
