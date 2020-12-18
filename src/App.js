@@ -12,25 +12,6 @@ class App extends Component {
     message:'What are your plans?'
   }
     
-
-  nameClickHandler = () => {
-    this.setState({
-      name: ''
-    })
-  }
-
-  emailClickHandler = () => {
-    this.setState({
-        email: ''
-    })
-  }
-
-  messageClickHandler = () => {
-    this.setState({
-      message: ''
-    })
-  }
-
   nameChangeHandler = (event) => {
     this.setState({
       name: event.target.value
@@ -59,9 +40,6 @@ class App extends Component {
         name={this.state.name}
         email={this.state.email}
         message={this.state.message}
-        nameClicked={this.nameClickHandler}
-        emailClicked={this.emailClickHandler}
-        messageClicked={this.messageClickHandler}
         nameChanged={this.nameChangeHandler}
         emailChanged={this.emailChangeHandler}
         messageChanged={this.messageChangeHandler}
