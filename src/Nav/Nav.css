@@ -21,3 +21,22 @@
 .nav-img {
   width: 15%;
 }
+
+@media only screen and (max-device-width: 600px) {
+
+  .nav-li-left {
+    display: none;
+  }
+
+  .nav-li-right {
+    display: none;
+  }
+
+  .Nav {
+    padding: 10%;
+  }
+
+  .nav-img {
+    width: 30%;
+  }
+}
