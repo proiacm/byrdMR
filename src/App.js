@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import Hero from './Hero/Hero';
 import Nav from './Nav/Nav';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
+        <Hero />
       </div>
     )};
   }
